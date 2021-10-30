@@ -4,14 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, NavbarBrand } from 'react-bootstrap';
 import Menu from './components/MenuComponents';
 import {DISHES} from './shared/Dishes'
+import DishDetail from './components/DishDetail'
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
       dishes : DISHES
-    }
 
+    }
   }
   render() {
     return (
